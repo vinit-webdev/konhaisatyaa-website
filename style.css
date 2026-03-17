@@ -407,6 +407,7 @@ opacity:1;
 
 }
 
+
 /* MOBILE RESPONSIVE */
 
 @media (max-width:768px){
@@ -466,4 +467,23 @@ width:90%;
 padding:80px 20px;
 }
 
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
 }
